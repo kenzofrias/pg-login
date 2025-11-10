@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="media/logo-300.jpg" alt="Logo Bitcoin">
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Autenticação Integrada</h1>
+            <hr>
+            <form action="login.php" autocomplete="on" method="post">
+                <div class="campo" id="cima">
+                    <label for="inome"><span class="material-symbols-outlined">person</span></label>
+                    <input type="text" required placeholder="  Nome de usuário" minlength="8" maxlength="15" id="inome" autocomplete="username">
+                </div>
+                <div class="campo" id="baixo">
+                    <label for="isenha"><span class="material-symbols-outlined">key</span></label>
+                    <input type="password" required placeholder="  Sua senha" minlength="8" maxlength="15" id="isenha" autocomplete="current-password">
+                </div>
+                <input type="submit" value="Entrar">
+            </form>
+            <nav>
+                <a href="#">Cadastre-se</a>
+                <a href="#">Esqueceu a senha?</a>
+            </nav>
+        </section>
+        <div>
+            <p>Por razões de segurança, por favor deslogue e feche o seu navegador quando terminar de acessar o sistemas que precisam de autenticação!</p>
+        </div>
+    </main>
+    <hr>
+    <footer>
+            <div id="logo">
+                <a href="https://github.com/kenzofrias"><img src="media/mylogo-black.png" alt="Minha Logo"></a>
+            </div>
+            <div id="dev">
+                <p>Desenvolvido por <strong>Kenzo Friás</strong></p>
+            </div>
+    </footer>
+</body>
+</html>

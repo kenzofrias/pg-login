@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+:root{
+    --cor01: white;
+    --cor02: #eff3f5;
+    --cor03: #24903d;
+    --cor04: #fef4c6;
+    --cor05: #0b57a5;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--cor02);
+}
+header{
+    background-color: var(--cor03);
+    height: 380px;
+
+    padding-top: 10px;
+}
+header > div{
+    background-color: var(--cor01);
+
+    padding: 12px;
+
+    text-align: center;
+}
+header > div > img{
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+}
+
+main{
+    background-color: var(--cor02);
+    padding-top: 280px;
+    padding-bottom: 40px;
+
+    position: relative;
+
+    box-sizing: border-box;
+}
+main > div{
+    background-color: var(--cor04);
+    color: rgb(129, 129, 129);
+
+    width: 290px;
+
+    margin: auto;
+    padding: 20px 40px;
+
+    font-size: 0.9em;
+    text-align: justify;
+
+    border-radius: 10px;
+    border: 2px solid rgb(210, 210, 210);
+}
+main > section{
+    background-color: var(--cor01);
+    color: rgb(151, 151, 151);
+
+    margin: auto;
+    padding: 20px;
+
+    width: 330px;
+    height: 330px;
+
+    border-radius: 10px;
+    display: block;
+
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main > section > h1{
+    font-size: 1.3em;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 5px;
+}
+main > section > form > input{
+    background-color: var(--cor03);
+    color: var(--cor01);
+    font-variant: small-caps;
+    font-weight: bolder;    
+    padding: 8px 0px;
+    width: 120px;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+main > section > form > input:hover{
+    background-color: #155424;
+}
+main > section > nav {
+    text-align: center;
+}
+main > section > nav > a{
+    display: block;
+    padding: 5px;
+    color: var(--cor05);
+    text-decoration: none;
+    font-size: .9em;
+}
+main > section > nav > a:hover{
+    color: #0e6ac7;
+}
+main > section > form > .campo{
+    display: block;
+    
+    text-align: center;
+    
+    background-color: var(--cor02);
+    
+    margin: auto;
+    margin-bottom: 20px;
+
+    height: 38px;
+    width: 300px;
+
+    border-radius: 30px;
+}
+main > section > form > #cima{
+    margin-top: 40px;
+}
+main > section > form > #baixo{
+    margin-bottom: 40px;
+}
+main > section > form > div > label > span.material-symbols-outlined{
+    background-color: #24903d;
+    color: white;
+
+    width: 30px;
+    height: 30px;
+
+    padding: 5px 5px 3px 5px;
+    border-radius: 50%;
+
+    float: left;
+}
+main > section > form > div > input{
+    height: 30px;
+    width: 245px;
+
+    transform: translate(-10px, 3px);
+
+    border:none;
+    background-color: var(--cor02);
+
+    float: right;
+}
+
+hr{
+    color: rgb(151, 151, 151);
+}
+
+footer{
+    background-color: var(--cor02);
+    color: rgb(81, 81, 81);    
+    padding: 10px 30px;
+    height: 100px;
+    text-align: center;
+}
+footer img{
+    width: 60px;
+    background-color: var(--cor02);
+}
+footer >  p{
+    padding-top: 0px;
+}

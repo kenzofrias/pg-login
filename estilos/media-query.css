@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){
+    header{
+        height: 280px;
+    }
+    footer{
+        width:280px;
+        height: 60px;
+
+        margin: auto;
+    }
+    footer > div#logo{
+        float: left;
+    }
+    footer > div#dev{
+        float: right;
+        transform: translateY(25px);
+    }
+}
