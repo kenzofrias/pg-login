@@ -7,6 +7,9 @@
     main > section{
         width: 330px;
     }
+    main > div{
+        width: 290px;
+    }
     footer{
         width:280px;
         height: 60px;
