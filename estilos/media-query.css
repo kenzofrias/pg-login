@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 600px){
     header{
         height: 280px;
+    }
+    main > section{
+        width: 330px;
     }
     footer{
         width:280px;

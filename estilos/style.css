@@ -55,7 +55,7 @@ main > div{
     background-color: var(--cor04);
     color: rgb(129, 129, 129);
 
-    width: 290px;
+    width: 260px;
 
     margin: auto;
     padding: 20px 40px;
@@ -73,7 +73,7 @@ main > section{
     margin: auto;
     padding: 20px;
 
-    width: 330px;
+    width: 300px;
     height: 330px;
 
     border-radius: 10px;
