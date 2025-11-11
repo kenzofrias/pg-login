@@ -163,6 +163,8 @@ main > section > form > div > input{
     background-color: var(--cor02);
 
     float: right;
+
+    outline: none;
 }
 
 hr{
