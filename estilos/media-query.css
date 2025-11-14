@@ -1,26 +1,23 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 600px){
-    header{
-        height: 280px;
-    }
     main > section{
         width: 330px;
     }
-    main > div{
-        width: 290px;
+
+    main > div.alerta{
+        width: 330px;
     }
+    
     footer{
-        width:280px;
-        height: 60px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+
+        width: 380px;
 
         margin: auto;
-    }
-    footer > div#logo{
-        float: left;
-    }
-    footer > div#dev{
-        float: right;
-        transform: translateY(25px);
+        padding: 40px;
     }
 }
